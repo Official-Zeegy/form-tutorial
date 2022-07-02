@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2>Sign up</h2>
+
+    <form action="#">
+      <div>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          class="username"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" class="email" required />
+        <br />
+        <label for="dob">Date of birth:</label>
+        <input type="date" name="dob" id="dob" class="dob" required />
+      </div>
+
+      <div>
+        <label>Gender:</label>
+        Male<input
+          type="radio"
+          name="gender"
+          class="gender"
+          id="gender"
+          required
+        />
+        Female<input
+          type="radio"
+          name="gender"
+          class="gender"
+          id="gender"
+          required
+        />
+        Other<input
+          type="radio"
+          name="gender"
+          class="gender"
+          id="gender"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="eligibility">Are you 18+ ?</label>
+        <input type="checkbox" name="eligibility" id="eligibility" />
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="password"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="student_edu">Education description</label><br />
+        <textarea
+          name="student_edu"
+          cols="30"
+          rows="5"
+          id="student_edu"
+        ></textarea>
+      </div>
+
+      <div>
+        <input type="submit" name="submit" class="submit" />
+      </div>
+    </form>
+  </body>
+</html>
